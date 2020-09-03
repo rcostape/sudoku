@@ -70,13 +70,7 @@ public class Celula {
 			retorno = " ";			
 		}
 		else {
-		//	if (this.permiteAlterar) {
-			retorno = String.valueOf(this.valor);
-		//	}
-		//	else {
-		//		retorno = String.valueOf(this.valor+"*");
-		//	}
-			
+			retorno = String.valueOf(this.valor);			
 		}
 		return retorno;		
 	}
